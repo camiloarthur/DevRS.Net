@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fdc06824-068f-4b90-a5f9-e19741283500" name="camilo@CAMILO-PC 2010-10-18 20:52:18" runUser="camilo-PC\camilo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2220222f-ce31-46fb-9cf6-4abc2961e326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="camilo_CAMILO-PC 2010-10-18 20_52_18">
+      <DeploymentItem filename="C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-18T20:52:18.6923828-02:00" queuing="2010-10-18T20:52:18.7080078-02:00" start="2010-10-18T20:52:18.8955078-02:00" finish="2010-10-18T20:52:19.7861328-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Subtrair2De1Test" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="592d732d-98bb-05aa-09da-6abafee5dc37">
+      <Execution id="34c87e47-bbfa-41c9-b114-7d2775ecfa37" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Subtrair2De1Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="592d732d-98bb-05aa-09da-6abafee5dc37" executionId="34c87e47-bbfa-41c9-b114-7d2775ecfa37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34c87e47-bbfa-41c9-b114-7d2775ecfa37" testId="592d732d-98bb-05aa-09da-6abafee5dc37" testName="Subtrair2De1Test" computerName="CAMILO-PC" duration="00:00:00.0515079" startTime="2010-10-18T20:52:19.0517578-02:00" endTime="2010-10-18T20:52:19.3955078-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34c87e47-bbfa-41c9-b114-7d2775ecfa37">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;-1&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at CalculadoraTests.OperacoesTest.Subtrair2De1Test() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

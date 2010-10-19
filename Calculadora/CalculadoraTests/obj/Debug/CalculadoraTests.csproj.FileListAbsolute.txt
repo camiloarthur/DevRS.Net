@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\bin\Debug\CalculadoraTests.dll
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\bin\Debug\CalculadoraTests.pdb
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\bin\Debug\Calculadora.dll
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\bin\Debug\Calculadora.pdb
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\obj\Debug\CalculadoraTests.dll
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\obj\Debug\CalculadoraTests.pdb
