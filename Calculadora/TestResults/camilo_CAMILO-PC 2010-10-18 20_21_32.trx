@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1764a8a4-a719-423f-99d0-06bf9ac3675a" name="camilo@CAMILO-PC 2010-10-18 20:21:32" runUser="camilo-PC\camilo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2220222f-ce31-46fb-9cf6-4abc2961e326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="camilo_CAMILO-PC 2010-10-18 20_21_32">
+      <DeploymentItem filename="C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-18T20:21:32.3457031-02:00" queuing="2010-10-18T20:21:32.3613281-02:00" start="2010-10-18T20:21:32.5644531-02:00" finish="2010-10-18T20:21:33.2988281-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="3" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DividirTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a">
+      <Execution id="4bd1bbde-f1fa-4b3a-b8e3-f6277803ff98" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DividirTest" />
+    </UnitTest>
+    <UnitTest name="SubtrairTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="54f6e4dd-cfc3-a424-254d-26c35797b34c">
+      <Execution id="0eb56622-340f-4134-b545-881ba74ebaa3" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubtrairTest" />
+    </UnitTest>
+    <UnitTest name="MultiplicarTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="94bc2f16-a8c0-7ab5-7d7e-9f276177e601">
+      <Execution id="6799a799-6353-4a29-a223-64b01049fd5b" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplicarTest" />
+    </UnitTest>
+    <UnitTest name="SomarTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f">
+      <Execution id="4435271d-10bc-4355-925e-0a0ac226b14b" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SomarTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="54f6e4dd-cfc3-a424-254d-26c35797b34c" executionId="0eb56622-340f-4134-b545-881ba74ebaa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" executionId="4bd1bbde-f1fa-4b3a-b8e3-f6277803ff98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94bc2f16-a8c0-7ab5-7d7e-9f276177e601" executionId="6799a799-6353-4a29-a223-64b01049fd5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f" executionId="4435271d-10bc-4355-925e-0a0ac226b14b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0eb56622-340f-4134-b545-881ba74ebaa3" testId="54f6e4dd-cfc3-a424-254d-26c35797b34c" testName="SubtrairTest" computerName="CAMILO-PC" duration="00:00:00.0333788" startTime="2010-10-18T20:21:32.7363281-02:00" endTime="2010-10-18T20:21:33.0488281-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0eb56622-340f-4134-b545-881ba74ebaa3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at CalculadoraTests.OperacoesTest.SubtrairTest() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4bd1bbde-f1fa-4b3a-b8e3-f6277803ff98" testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" testName="DividirTest" computerName="CAMILO-PC" duration="00:00:00.0148641" startTime="2010-10-18T20:21:33.0644531-02:00" endTime="2010-10-18T20:21:33.0800781-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd1bbde-f1fa-4b3a-b8e3-f6277803ff98">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CalculadoraTests.OperacoesTest.DividirTest threw exception: 
+System.DivideByZeroException: Attempted to divide by zero.</Message>
+          <StackTrace>    at Calculadora.Operacoes.Dividir(Int64 dividendo, Int64 divisor) in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\Operacoes.cs:line 27
+   at CalculadoraTests.OperacoesTest.DividirTest() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6799a799-6353-4a29-a223-64b01049fd5b" testId="94bc2f16-a8c0-7ab5-7d7e-9f276177e601" testName="MultiplicarTest" computerName="CAMILO-PC" duration="00:00:00.0010020" startTime="2010-10-18T20:21:33.0800781-02:00" endTime="2010-10-18T20:21:33.0957031-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6799a799-6353-4a29-a223-64b01049fd5b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at CalculadoraTests.OperacoesTest.MultiplicarTest() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4435271d-10bc-4355-925e-0a0ac226b14b" testId="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f" testName="SomarTest" computerName="CAMILO-PC" duration="00:00:00.0022078" startTime="2010-10-18T20:21:33.1113281-02:00" endTime="2010-10-18T20:21:33.1269531-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4435271d-10bc-4355-925e-0a0ac226b14b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at CalculadoraTests.OperacoesTest.SomarTest() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

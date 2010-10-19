@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="80b88cc5-96cc-4cb7-bed3-f9003514ef81" name="camilo@CAMILO-PC 2010-10-18 21:03:44" runUser="camilo-PC\camilo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2220222f-ce31-46fb-9cf6-4abc2961e326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="camilo_CAMILO-PC 2010-10-18 21_03_44">
+      <DeploymentItem filename="C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-18T21:03:44.9414062-02:00" queuing="2010-10-18T21:03:45.0039062-02:00" start="2010-10-18T21:03:45.1445312-02:00" finish="2010-10-18T21:03:45.6914062-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DividirTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a">
+      <Execution id="69323b65-7f94-49aa-ae90-f9bf518f199f" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DividirTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" executionId="69323b65-7f94-49aa-ae90-f9bf518f199f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="69323b65-7f94-49aa-ae90-f9bf518f199f" testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" testName="DividirTest" computerName="CAMILO-PC" duration="00:00:00.0450819" startTime="2010-10-18T21:03:45.2695312-02:00" endTime="2010-10-18T21:03:45.5976562-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69323b65-7f94-49aa-ae90-f9bf518f199f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CalculadoraTests.OperacoesTest.DividirTest threw exception: 
+System.Exception: O divisor não pode ser zero!</Message>
+          <StackTrace>    at Calculadora.Operacoes.Dividir(Int64 dividendo, Int64 divisor) in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\Operacoes.cs:line 29
+   at CalculadoraTests.OperacoesTest.DividirTest() in C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\CalculadoraTests\OperacoesTest.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8d86316a-6d40-4625-bd3f-32bb7241b8f8" name="camilo@CAMILO-PC 2010-10-18 23:07:00" runUser="camilo-PC\camilo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2220222f-ce31-46fb-9cf6-4abc2961e326">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="camilo_CAMILO-PC 2010-10-18 23_07_00">
+      <DeploymentItem filename="C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-10-18T23:07:00.0712891-02:00" queuing="2010-10-18T23:07:00.0869141-02:00" start="2010-10-18T23:07:00.2900391-02:00" finish="2010-10-18T23:07:00.9462891-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MultiplicarTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="94bc2f16-a8c0-7ab5-7d7e-9f276177e601">
+      <Execution id="71d2d093-0e45-49e7-b3bf-8901cf336c7f" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplicarTest" />
+    </UnitTest>
+    <UnitTest name="DividirTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a">
+      <Execution id="086a302e-baa0-4edb-a904-af0aa27ccad5" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DividirTest" />
+    </UnitTest>
+    <UnitTest name="Subtrair2De1Test" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="592d732d-98bb-05aa-09da-6abafee5dc37">
+      <Execution id="fb6d416f-781b-4243-a5f5-63d89abbdef2" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Subtrair2De1Test" />
+    </UnitTest>
+    <UnitTest name="SomarTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f">
+      <Execution id="8945ff4a-a70b-4393-b50c-8a1fecdd6406" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SomarTest" />
+    </UnitTest>
+    <UnitTest name="Subtrair2De49Test" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="43d8a362-6325-ef7f-bac9-f789b7aa1a6e">
+      <Execution id="4afda8a5-7320-4e49-a935-68679746a742" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Subtrair2De49Test" />
+    </UnitTest>
+    <UnitTest name="SubtrairTest" storage="c:\inetpub\wwwroot\projetos\devrs\calculadora\calculadoratests\bin\debug\calculadoratests.dll" id="54f6e4dd-cfc3-a424-254d-26c35797b34c">
+      <Execution id="e4e1339c-a98f-415a-8be4-e0158e6b665f" />
+      <TestMethod codeBase="C:/inetpub/wwwroot/Projetos/DevRS/Calculadora/CalculadoraTests/bin/Debug/CalculadoraTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CalculadoraTests.OperacoesTest, CalculadoraTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SubtrairTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="43d8a362-6325-ef7f-bac9-f789b7aa1a6e" executionId="4afda8a5-7320-4e49-a935-68679746a742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54f6e4dd-cfc3-a424-254d-26c35797b34c" executionId="e4e1339c-a98f-415a-8be4-e0158e6b665f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="592d732d-98bb-05aa-09da-6abafee5dc37" executionId="fb6d416f-781b-4243-a5f5-63d89abbdef2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" executionId="086a302e-baa0-4edb-a904-af0aa27ccad5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94bc2f16-a8c0-7ab5-7d7e-9f276177e601" executionId="71d2d093-0e45-49e7-b3bf-8901cf336c7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f" executionId="8945ff4a-a70b-4393-b50c-8a1fecdd6406" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4afda8a5-7320-4e49-a935-68679746a742" testId="43d8a362-6325-ef7f-bac9-f789b7aa1a6e" testName="Subtrair2De49Test" computerName="CAMILO-PC" duration="00:00:00.0189102" startTime="2010-10-18T23:07:00.4306641-02:00" endTime="2010-10-18T23:07:00.7275391-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4afda8a5-7320-4e49-a935-68679746a742">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4e1339c-a98f-415a-8be4-e0158e6b665f" testId="54f6e4dd-cfc3-a424-254d-26c35797b34c" testName="SubtrairTest" computerName="CAMILO-PC" duration="00:00:00.0016440" startTime="2010-10-18T23:07:00.7431641-02:00" endTime="2010-10-18T23:07:00.7431641-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4e1339c-a98f-415a-8be4-e0158e6b665f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb6d416f-781b-4243-a5f5-63d89abbdef2" testId="592d732d-98bb-05aa-09da-6abafee5dc37" testName="Subtrair2De1Test" computerName="CAMILO-PC" duration="00:00:00.0012320" startTime="2010-10-18T23:07:00.7431641-02:00" endTime="2010-10-18T23:07:00.7587891-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb6d416f-781b-4243-a5f5-63d89abbdef2">
+    </UnitTestResult>
+    <UnitTestResult executionId="086a302e-baa0-4edb-a904-af0aa27ccad5" testId="5d8cbbb9-59f2-58b4-2c51-5bca2b01111a" testName="DividirTest" computerName="CAMILO-PC" duration="00:00:00.0013230" startTime="2010-10-18T23:07:00.7587891-02:00" endTime="2010-10-18T23:07:00.7587891-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="086a302e-baa0-4edb-a904-af0aa27ccad5">
+    </UnitTestResult>
+    <UnitTestResult executionId="71d2d093-0e45-49e7-b3bf-8901cf336c7f" testId="94bc2f16-a8c0-7ab5-7d7e-9f276177e601" testName="MultiplicarTest" computerName="CAMILO-PC" duration="00:00:00.0014638" startTime="2010-10-18T23:07:00.7744141-02:00" endTime="2010-10-18T23:07:00.7744141-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71d2d093-0e45-49e7-b3bf-8901cf336c7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="8945ff4a-a70b-4393-b50c-8a1fecdd6406" testId="b7f743ce-1d97-ba16-aab3-db1c1f34ce1f" testName="SomarTest" computerName="CAMILO-PC" duration="00:00:00.0016951" startTime="2010-10-18T23:07:00.7744141-02:00" endTime="2010-10-18T23:07:00.7900391-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8945ff4a-a70b-4393-b50c-8a1fecdd6406">
+    </UnitTestResult>
+  </Results>
+</TestRun>

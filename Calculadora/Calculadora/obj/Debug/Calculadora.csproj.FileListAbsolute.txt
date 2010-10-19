@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.dll
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\obj\Debug\Calculadora.dll
+C:\inetpub\wwwroot\Projetos\DevRS\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
